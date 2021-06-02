@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>User Pref</title>
+</head>
+
+<body onload="init()">
+    <h1>User Pref</h1>
+
+    <form id="frmPref">
+        <table>
+            <tbody>
+                <tr>
+                    <td><label for="dob">Date of Birth:</label></td>
+                    <td><input type="date" id="dob" name="dob" /></td>
+                </tr>
+                <tr>
+                    <td>Background Color:</td>
+                    <td><input type="color" name="background-color" value="#ffffff" /></td>
+
+                </tr>
+                <tr>
+                    <td>Font Color:</td>
+                    <td><input type="color" name="font-color" value="#ffffff" /></td>
+                </tr>
+            </tbody>
+        </table>
+        <input type="submit" value="submit-prefs" onclick="submitForm(event)" />
+
+    </form>
+
+    <a href="index.html">Back to Main</a>
+
+
+
+
+    <script src="js/services/utilService.js"></script>
+    <script src="js/services/storageService.js"></script>
+    <script src="js/services/userPrefService.js"></script>
+    <script src="js/services/placeService.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

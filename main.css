@@ -1,0 +1,13 @@
+body {
+    display: block;
+    background-color: beige;
+}
+
+style{
+    display: block;
+    background-color: #fff;
+    color: black;
+    font: 16px/1.8 Monaco, Mono-Space;
+    white-space: pre;
+}
+
